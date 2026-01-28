@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F9FB;
+    @apply text-slate-900 antialiased;
+  }
+
+  .font-newsreader {
+    font-family: var(--font-newsreader), 'Newsreader', serif;
+  }
+}
+
+@layer utilities {
+  /* Electric card glow effect - indigo theme */
+  .electric-card {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.2), inset 0 0 20px rgba(99, 102, 241, 0.05);
+  }
+
+  /* Electric border gradient - indigo theme */
+  .electric-border {
+    background: linear-gradient(180deg, rgba(99, 102, 241, 1) 0%, rgba(99, 102, 241, 0) 100%);
+  }
+
+  /* Gradient animation for dashboard glow */
+  .animate-gradient-move {
+    background-size: 200% 200%;
+    animation: gradient-move 4s ease infinite;
+  }
+
+  /* Scrollbar hiding */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Entry animation - matches index.html exactly */
+  .animate-entry {
+    animation: fadeInUpBlur 1s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+
+  /* Animation delays */
+  .delay-75 {
+    animation-delay: 75ms;
+  }
+
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .delay-150 {
+    animation-delay: 150ms;
+  }
+
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .delay-225 {
+    animation-delay: 225ms;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .delay-375 {
+    animation-delay: 375ms;
+  }
+
+  .delay-450 {
+    animation-delay: 450ms;
+  }
+
+  .delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .delay-525 {
+    animation-delay: 525ms;
+  }
+
+  .delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .delay-675 {
+    animation-delay: 675ms;
+  }
+
+  .delay-700 {
+    animation-delay: 700ms;
+  }
+
+  /* Scroll animation - matches index.html exactly */
+  .animate-on-scroll {
+    opacity: 0;
+  }
+
+  .animate-on-scroll.animate {
+    animation: animationIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  }
+}
+
+/* Keyframes - matches index.html exactly */
+@keyframes fadeInUpBlur {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes animationIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Float animation for elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Progress bar animation */
+@keyframes progress-bar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--progress-width, 75%);
+  }
+}
+
+.animate-progress-bar {
+  animation: progress-grow 1.5s ease-out forwards;
+}
+
+@keyframes progress-grow {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* Slide in from right animation */
+@keyframes slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+/* Count up effect (visual only, number is static) */
+.animate-count-up {
+  animation: count-fade 0.8s ease-out forwards;
+}
+
+@keyframes count-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
