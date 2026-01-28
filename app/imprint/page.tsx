@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: 'Imprint | ClipMarketer',
   description: 'Legal information and contact details for ClipMarketer. Company information according to German law (§ 5 TMG).',
   alternates: {
-    canonical: 'https://clipmarketer.com/imprint',
+    canonical: 'https://www.clipmarketer.com/imprint',
     languages: {
-      'en': 'https://clipmarketer.com/imprint',
-      'de': 'https://clipmarketer.com/de/impressum',
+      'en': 'https://www.clipmarketer.com/imprint',
+      'de': 'https://www.clipmarketer.com/de/impressum',
     },
   },
 }

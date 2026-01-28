@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: 'Datenschutzerklärung | ClipMarketer',
   description: 'Erfahren Sie, wie ClipMarketer Ihre personenbezogenen Daten erhebt, verwendet und schützt. Unsere Datenschutzerklärung informiert Sie über Ihre Rechte und unsere Datenschutzpraktiken.',
   alternates: {
-    canonical: 'https://clipmarketer.com/de/datenschutzerklaerung',
+    canonical: 'https://www.clipmarketer.com/de/datenschutzerklaerung',
     languages: {
-      'en': 'https://clipmarketer.com/privacy-policy',
-      'de': 'https://clipmarketer.com/de/datenschutzerklaerung',
+      'en': 'https://www.clipmarketer.com/privacy-policy',
+      'de': 'https://www.clipmarketer.com/de/datenschutzerklaerung',
     },
   },
 }

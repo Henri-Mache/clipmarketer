@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: 'Impressum | ClipMarketer',
   description: 'Rechtliche Informationen und Kontaktdaten für ClipMarketer. Angaben gemäß § 5 TMG.',
   alternates: {
-    canonical: 'https://clipmarketer.com/de/impressum',
+    canonical: 'https://www.clipmarketer.com/de/impressum',
     languages: {
-      'en': 'https://clipmarketer.com/imprint',
-      'de': 'https://clipmarketer.com/de/impressum',
+      'en': 'https://www.clipmarketer.com/imprint',
+      'de': 'https://www.clipmarketer.com/de/impressum',
     },
   },
 }

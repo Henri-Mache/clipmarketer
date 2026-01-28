@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: 'Terms of Service | ClipMarketer',
   description: 'Read the terms and conditions for using ClipMarketer services. Understand your rights and obligations when using our video clipping and content distribution platform.',
   alternates: {
-    canonical: 'https://clipmarketer.com/terms-of-service',
+    canonical: 'https://www.clipmarketer.com/terms-of-service',
     languages: {
-      'en': 'https://clipmarketer.com/terms-of-service',
-      'de': 'https://clipmarketer.com/de/agb',
+      'en': 'https://www.clipmarketer.com/terms-of-service',
+      'de': 'https://www.clipmarketer.com/de/agb',
     },
   },
 }

@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   title: 'Allgemeine Geschäftsbedingungen (AGB) | ClipMarketer',
   description: 'Lesen Sie die Allgemeinen Geschäftsbedingungen für die Nutzung der ClipMarketer-Dienste. Informieren Sie sich über Ihre Rechte und Pflichten bei der Nutzung unserer Video-Clipping- und Content-Distribution-Plattform.',
   alternates: {
-    canonical: 'https://clipmarketer.com/de/agb',
+    canonical: 'https://www.clipmarketer.com/de/agb',
     languages: {
-      'en': 'https://clipmarketer.com/terms-of-service',
-      'de': 'https://clipmarketer.com/de/agb',
+      'en': 'https://www.clipmarketer.com/terms-of-service',
+      'de': 'https://www.clipmarketer.com/de/agb',
     },
   },
 }

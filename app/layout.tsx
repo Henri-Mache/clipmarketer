@@ -9,15 +9,15 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'ClipMarketer | Clip Marketing & Short-Form Content Distribution for Brands & Creators',
   description: 'ClipMarketer is a clip marketing software that helps brands, creators, and influencers repurpose long-form content into short-form videos for TikTok, Reels, and Shorts—powering consistent social media marketing and organic growth.',
-  metadataBase: new URL('https://clipmarketer.com'),
+  metadataBase: new URL('https://www.clipmarketer.com'),
 }
 
 const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'ClipMarketer',
-  url: 'https://clipmarketer.com',
-  logo: 'https://clipmarketer.com/images/clip-marketing.jpg',
+  url: 'https://www.clipmarketer.com',
+  logo: 'https://www.clipmarketer.com/images/clip-marketing.jpg',
   description: 'ClipMarketer transforms long-form content into professional short-form clips for TikTok, Reels, and Shorts. Human-crafted quality, AI-verified.',
   contactPoint: {
     '@type': 'ContactPoint',
